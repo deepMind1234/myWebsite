@@ -1,0 +1,79 @@
+body,html {
+	margin: 0px;
+	background-color:antiquewhite;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.jumbotron > h1{
+	color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; 
+	padding: 0px 0px 0px 0px;
+	border-style: none;
+	text-align: left;
+	box-shadow:none;
+	
+}
+.jumbotron{
+	height:250px;
+	display: flex;
+	
+}
+
+.dark{
+	background-color: lightpink;
+	background-image:
+	linear-gradient(45deg, #000 25%, transparent 25%),
+	linear-gradient(45deg, transparent 75%, #000 75%),
+	linear-gradient(45deg, transparent 75%, #000 75%),
+	linear-gradient(45deg, #000 25%, #fff 25%); 
+}
+
+.widthcap{
+	width: 300px;
+}
+
+.spurs{
+	background-image: url(assets/Tottenham-Hotspur.png);
+	background-repeat: repeat;
+	background-size:100px ;
+
+}
+.soccer{
+	background-color:#ECE9EF;
+	border-radius: 30px;
+}
+
+.HK{
+	background-image: url(assets/HongKong.png);
+	background-size: 600;
+}

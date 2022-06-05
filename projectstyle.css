@@ -1,0 +1,27 @@
+body,html{
+    background-color: antiquewhite;
+}
+
+.grid-container{
+    display:grid;
+    grid-gap:0px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 2fr 1fr;
+    grid-gap:20px;
+    justify-items: center   ;
+  }
+
+  h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}   

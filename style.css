@@ -1,0 +1,70 @@
+body,
+html {
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(assets/mountain.avif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color:black;
+  text-align: center;
+}
+
+
+hr {
+  border-color: silver;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.container{
+  display:grid;
+  grid-gap:0px ;
+  grid-template-columns: repeat(autofill,minmax(200px,1fr));
+  grid-template-rows:1fr 2fr 1fr;
+}
+.grid-item-title{
+  grid-column:1/2;
+  grid-row-start:2;
+}
+.buttons{
+  grid-column-start:1;
+  grid-row-start:3;
+
+}
+.link{
+  display:inline-block;
+  margin:50px;
+  border-radius:10px;
+}
+.navbar1{
+  display:flex;
+  list-style:none;
+  font-size:0.9rem;
+}
+li{
+  padding:20px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
